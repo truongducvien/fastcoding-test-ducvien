@@ -1,0 +1,172 @@
+@import './variables.scss';
+
+main{
+   position: relative;
+   width: 100%;
+   transform: translateY(-6px);
+
+   .main-background{
+      width: 100%;
+   }
+
+   .main-content{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+      .content-01 {
+         width: 70.5%;
+         height: 6.7%;
+         padding: 6% 10%;
+         box-sizing: border-box;
+
+         .content-01-title{
+            @include heading-1; 
+            color: white;
+         }
+         .content-01-detail{
+            @include content;
+            padding: 5px 0;
+            color: $yellow;
+         }
+      }
+      .content-02{
+         position: absolute;
+         top: -1vw;
+         right: 0;
+         width: 29.5%;
+         img{
+            width: 100%;
+         }
+      }
+      .content-03{
+         position: relative;
+         width: 86.5%;
+
+         img{
+            width: 100%
+         }
+         .content-03-detail{
+            position: absolute;
+            top: 25%;
+            width: 100%;
+            padding-left: 12.5%;
+
+            h2{
+               @include heading-1;
+               color: $yellow;
+            }
+            p{
+               @include content;
+               display: block;
+               width: 50%;
+               padding: 2% 0;
+               color: $title-color-01;
+            }
+            button{
+               width: 13%;
+               padding: 1%;
+               border: 1px solid #404429;
+               background-color: #272a18;
+               color: white;
+               font-size: 0.8vw;
+               @include content;
+            }
+            button:hover{
+               cursor: pointer;
+               background-color: #2d311b;
+            }
+         }
+      }
+
+      .content-04 {
+         z-index: 1;
+         position: absolute;
+         top: 1%;
+         right: 19.2%;
+         width: 21.1%;
+         img{
+            width: 100%;
+         }
+      }
+
+      .content-05 {
+         position: relative;
+         width: 100%;
+
+         img{
+            width: 100%;
+         }
+         .content-05-title{
+            @include heading-1;
+            display: block;
+            position: absolute;
+            top: 35%;
+            right: 11%;
+            width: 30%;
+            font-weight: 800;
+         }
+      }
+
+      .content-06{
+         width: 50%;
+         padding: 10vw 5vw 10vw 11vw;
+         margin-bottom: 7vw;
+         box-sizing: border-box;
+
+         .content-06-title{
+            @include heading-1; 
+            padding-bottom: 1vw;
+            font-weight: 800;
+            color: $yellow;
+         }
+         .content-06-detail{
+            @include content;
+            padding: 2vw 0;
+            text-align: justify;
+            color: $title-color-01;
+         }
+      }
+
+      .content-07 {
+         position: absolute;
+         top: 30%;
+         right: 0;
+         width: 50%;
+         img{
+            width: 100%;
+         }
+      }
+
+      .content-08 {
+         position: relative;
+         width: 100%;
+         text-align: center;
+
+         .content-08-title{
+            @include heading-1; 
+            padding-bottom: 1vw;
+            color: $yellow;
+         }
+         .content-08-detail{
+            @include content;
+            padding: 5px 0;
+            color: $title-color-01;
+         }
+         button{
+            width: 13%;
+            padding: 1%;
+            border: 1px solid #404429;
+            background-color: #1a190e;
+            color: white;
+            font-size: 0.8vw;
+            @include content
+         }
+         button:hover{
+            cursor: pointer;
+            background-color: #232214;
+         }
+      }
+   }
+}

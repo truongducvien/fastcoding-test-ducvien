@@ -1,0 +1,200 @@
+main {
+  position: relative;
+  width: 100%;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+main .main-background {
+  width: 100%;
+}
+
+main .main-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main .main-content .content-01 {
+  width: 70.5%;
+  height: 6.7%;
+  padding: 6% 10%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .main-content .content-01 .content-01-title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8vw;
+  color: white;
+}
+
+main .main-content .content-01 .content-01-detail {
+  font-family: 'Amiri', serif;
+  font-size: 1.1vw;
+  padding: 5px 0;
+  color: #cdb378;
+}
+
+main .main-content .content-02 {
+  position: absolute;
+  top: -1vw;
+  right: 0;
+  width: 29.5%;
+}
+
+main .main-content .content-02 img {
+  width: 100%;
+}
+
+main .main-content .content-03 {
+  position: relative;
+  width: 86.5%;
+}
+
+main .main-content .content-03 img {
+  width: 100%;
+}
+
+main .main-content .content-03 .content-03-detail {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  padding-left: 12.5%;
+}
+
+main .main-content .content-03 .content-03-detail h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8vw;
+  color: #cdb378;
+}
+
+main .main-content .content-03 .content-03-detail p {
+  font-family: 'Amiri', serif;
+  font-size: 1.1vw;
+  display: block;
+  width: 50%;
+  padding: 2% 0;
+  color: #b4ba98;
+}
+
+main .main-content .content-03 .content-03-detail button {
+  width: 13%;
+  padding: 1%;
+  border: 1px solid #404429;
+  background-color: #272a18;
+  color: white;
+  font-size: 0.8vw;
+  font-family: 'Amiri', serif;
+  font-size: 1.1vw;
+}
+
+main .main-content .content-03 .content-03-detail button:hover {
+  cursor: pointer;
+  background-color: #2d311b;
+}
+
+main .main-content .content-04 {
+  z-index: 1;
+  position: absolute;
+  top: 1%;
+  right: 19.2%;
+  width: 21.1%;
+}
+
+main .main-content .content-04 img {
+  width: 100%;
+}
+
+main .main-content .content-05 {
+  position: relative;
+  width: 100%;
+}
+
+main .main-content .content-05 img {
+  width: 100%;
+}
+
+main .main-content .content-05 .content-05-title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8vw;
+  display: block;
+  position: absolute;
+  top: 35%;
+  right: 11%;
+  width: 30%;
+  font-weight: 800;
+}
+
+main .main-content .content-06 {
+  width: 50%;
+  padding: 10vw 5vw 10vw 11vw;
+  margin-bottom: 7vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .main-content .content-06 .content-06-title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8vw;
+  padding-bottom: 1vw;
+  font-weight: 800;
+  color: #cdb378;
+}
+
+main .main-content .content-06 .content-06-detail {
+  font-family: 'Amiri', serif;
+  font-size: 1.1vw;
+  padding: 2vw 0;
+  text-align: justify;
+  color: #b4ba98;
+}
+
+main .main-content .content-07 {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 50%;
+}
+
+main .main-content .content-07 img {
+  width: 100%;
+}
+
+main .main-content .content-08 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+main .main-content .content-08 .content-08-title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8vw;
+  padding-bottom: 1vw;
+  color: #cdb378;
+}
+
+main .main-content .content-08 .content-08-detail {
+  font-family: 'Amiri', serif;
+  font-size: 1.1vw;
+  padding: 5px 0;
+  color: #b4ba98;
+}
+
+main .main-content .content-08 button {
+  width: 13%;
+  padding: 1%;
+  border: 1px solid #404429;
+  background-color: #1a190e;
+  color: white;
+  font-size: 0.8vw;
+  font-family: 'Amiri', serif;
+  font-size: 1.1vw;
+}
+
+main .main-content .content-08 button:hover {
+  cursor: pointer;
+  background-color: #232214;
+}
+/*# sourceMappingURL=main.css.map */

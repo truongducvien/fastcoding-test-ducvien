@@ -1,0 +1,84 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+header .header-background {
+  height: 100vh;
+}
+
+header .header-logo {
+  position: absolute;
+  top: 11%;
+  left: 45.5%;
+  width: 9%;
+}
+
+header .header-content {
+  position: absolute;
+  left: calc(50% - 400px);
+  top: 20vw;
+  width: 800px;
+}
+
+header .header-content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-content .title .line {
+  width: 245px;
+  height: 3px;
+  background-color: #cdb378;
+}
+
+header .header-content .title span {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+  padding: 0 15px;
+  color: white;
+  font-weight: 700;
+}
+
+header .header-content .description {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+header .header-content p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #cdb378;
+}
+
+header .header-navigate {
+  position: absolute;
+  left: calc(50% - 100px);
+  bottom: 10%;
+  width: 200px;
+  color: #cdb378;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+}
+/*# sourceMappingURL=header.css.map */
